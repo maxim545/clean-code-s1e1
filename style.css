@@ -49,15 +49,19 @@ ul {
   padding: 0px;
 }
 
-li, h3 {
+li, 
+h3 {
   list-style: none;
 }
 
-input,button{
+input,
+button {
   outline: none;
 }
 
-.add-btn, .edit-btn, .delete-btn {
+.add-btn, 
+.edit-btn, 
+.delete-btn {
   background: none;
   border: 0px;
   color: #888;
@@ -68,12 +72,15 @@ input,button{
   display: block;
 }
 
-.add-btn:hover, .edit-btn:hover, .delete-btn:hover {
+.add-btn:hover, 
+.edit-btn:hover, 
+.delete-btn:hover {
   color: #3a3a3a;
 }
 
 /* Heading */
-.main-title, .main-label {
+.main-title, 
+.main-label {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -83,7 +90,8 @@ input,button{
   text-transform: uppercase;
 }
 
-.text-input, .new-input {
+.text-input, 
+.new-input {
   margin: 0;
   font-size: 18px;
   line-height: 18px;
@@ -96,7 +104,8 @@ input,button{
   color: #888;
 }
 
-.text-input:focus, .new-input:focus {
+.text-input:focus, 
+.new-input:focus {
   color: #333;
 }
 
